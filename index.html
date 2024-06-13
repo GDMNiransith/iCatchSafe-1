@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>iCatchSafe</title>
+</head>
+<body style="background-color: #E9F7EF">
+    <!-- NavBar -->
+    <nav id="navmenu" class="navbar navbar-expand-lg sticky-top">
+        <a class="navbar-brand" href="#home">
+            <img src="./Images/logo/icon.png" width="35" height="35" class="d-inline-block align-top"  loading="lazy">
+            <span>iCatchSafe</span></br>
+        </a>
+        <button id="nav-toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span id="nav-toggle-icon" class="fas fa-ellipsis-v"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="navmenu-links" class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Project Scope
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#project-scope">Literature Survey</a>
+                <a class="dropdown-item" href="#research_gap">Research Gap</a>
+                <a class="dropdown-item" href="#research_problem">Research Problem & Solution</a>
+                <a class="dropdown-item" href="#research_objectives">Research Objectives</a>
+                <a class="dropdown-item" href="#methodology">Methodology</a>
+                <a class="dropdown-item" href="#tech_used">Technologies</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#milestones">Milestones</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Downloads
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#downloads">Documents</a>
+                  <a class="dropdown-item" href="#presentations">Presentations</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+            </li>
+			<!-- <li class="nav-item">
+                <a class="nav-link" href="#achievements">Achievements</a>
+            </li> -->
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Home -->
+      <section id="home">
+        <div class="container">
+            <div class="hero-cta">
+                <h1>LoRa-based Wireless <br/>Communication System </h1>
+                <a class="btn btn-outline-light" type="button" href="#project-scope"><span class="btn-text">Learn More</span><span class="fas fa-chevron-right btn-icon"></span></a>
+            </div>
+        </div>
+        <div class="hero-cover">
+            <img class="spotlight-image" src="./Images/other/skeleton.png"/>
+            <img class="" src="./Images/other/background.jpg" height="100%" width="100%"/>
+        </div>
+      </section>
+      <!-- project-scope -->
+      <section id="project-scope" class="main-sections" style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings">Project Scope</h5>
+            <!-- Literature Survey -->
+            <div id="literature" class="sub-section">
+                <h2>Literature Survey</h2>
+                <div class="row">
+                  <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+                    <div class="section-left">
+                      <div class="section-info-div">
+                        <div class="row">
+                          <div class="col-sm-5"><img src="./Images/lit/4.jpg" width="60%" height="95%" style="border-radius: 10px;"/></div>
+                          <div class="col-sm-7 text-col">Entire 1770 km of Sri Lanka’s coastline.
+                            Around 8,500,000 actively engage in the seafood and aquaculture industry<span style="color: grey; font-size: 12px;"></span style="color: grey; font-size: 12px;"></div>
+                        </div>
+                      </div>
+                      <div class="section-figure " >
+                        <img style="align-items:center" src="./Images/lit/stat.jpg" width="60%"/>
+                        <p>Figure 1. Map of the Sri Lankan Exclusive Economic Zone (EEZ) (Source: Maritime Boundaries Geodatabase, Flanders Marine Institute).</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+					<p>The fisheries sector in Sri Lanka is a vital component of the national economy, providing employment and sustenance for a significant portion of the population. However, the industry is plagued by challenges such as communication and safety issues, primarily due to the lack of a robust communication system that facilitates long-distance connectivity with the shore. This literature review explores various communication systems and technologies that could potentially address these challenges and enhance safety and efficiency in the fisheries sector. </p>
+				   <p>The author, N. Jayapal [1] proposed GPS-based system that are widely used in maritime navigation to provide real-time location information of boats and ships, displayed on GPS maps. These systems are essential for sailors as they enable precise navigation, speed calculation, and location determination, ensuring safe and 
+            efficient movement through waterways. The accuracy of GPS systems in providing position, speed, and heading information is essential for the safe arrival of vessels at their destination. While these systems provide valuable navigational aid, they fall short in facilitating real-time communication between vessels and shore, a critical need for addressing safety and illegal fishing concerns.</p>
+                    <div class="references">
+                      <p class="pt-sm-1"><strong>References</strong></p>
+                      <ol>
+                        <li>N. Jayapal, "GPS & LabView based system for detection and control of maritime boundary intruding boats," IJERT, Apr 2018.</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- Research Gap -->
+            <div id="research_gap" class="sub-section" >
+              <h2>Research Gap</h2>
+              <p>Following areas are the research gaps found in most of the recent researches.</p>
+              <div class="row mt-5 research-gap">
+			<div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-search fa-3x " aria-hidden="true" style="color: green; "></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Identification & classification </h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;"> There are no records of a smart solution for wireless communication system in Sri Lanka. It is a challenge to provide a solution due to limited data connectivity at the sea.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-chart-line fa-3x " aria-hidden="true" style="color: green;"></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Severity assessment</h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;">A smart solution using LoRa-based wireless communication systems for monitoring fish species and illegal fishing activities has been reported in various regions. However, assessing the severity of fishing violations and the progression of illegal activities has not yet been attempted. Additionally, the implementation of secure communication and real-time weather alerting and forecasting functions remains unexplored.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-comments fa-3x " aria-hidden="true" style="color: green;"></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Information sharing</h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;">A real-time communication system using LoRa-based wireless technology has been identified as a priority need for effective information sharing between fishermen, land authorities, and researchers for enhanced secure communication, weather updates and control of illegal fishing activities.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+			</div> 
+              </div>
+          </div>
+            <!-- Research Problem -->
+            <div id="research_problem" class="sub-section">
+              <h2>Research Problem & Solution</h2>
+			   <div class="row">
+                <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+                 <h5><strong>Proposed Problem</strong></h5>
+				 </br>
+					<h4 class="highlight">How does the implementation of the sea communication system impact the overall safety and efficiency of the fishery industry in Sri Lanka?
+            </h4>
+					<p></p>
+					<p style="text-align: justify;">The fishery industry in sri lanka encounters problems such 
+            as communication and safety issues because of the lack of a 
+            reliable communication system that enables long-distance 
+            connection with the shore. The current communication 
+            channels are restricted, causing accidents and facilitating 
+            illegal fishing activities.</p>
+				</br>
+				</div>
+
+				<div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5">
+                  <div class="section-left">
+                    <div class="section-figure">
+                      <iframe width="100%" height="315" src="https://www.youtube.com/embed/PP1qIZ2HK8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <p>Product Demonstration - Solution</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+			     <div>
+				 <h5><strong>Proposed Solution</strong></h5>
+				 </br>
+				 <p style="text-align: justify;">The proposed wireless communication system, powered 
+          by LoRa technology, is designed to revolutionize 
+          communication and safety in the fishery industry. It offers a 
+          range of features, including emergency alerts, detection of 
+          illegal fishing activities, Sea Weather Prediction, and an Early 
+          Warning System. Additionally, integrating blockchain and 
+          smart contract technology ensures secure and reliable 
+          communication. This approach encrypts data before 
+          transmission, ensuring only authorized access, promoting 
+          transparency, and enhancing trust within the fishery 
+          ecosystem. The system's ability to transmit distress signals to 
+          nearby vessels, along with the sender's boat's precise location, 
+          will significantly enhance safety and productivity in the 
+          fishing sector.
+          The current unreliable communication system in the 
+          fishery industry poses significant challenges in identifying 
+          illegal fishing activities. The proposed LoRa-based wireless 
+          communication system will overcome these barriers by 
+          facilitating instant data exchange between fishing vessels and 
+          shore stations, enabling the swift identification of illegal 
+          fishing activities. Moreover, the system's ability to monitor 
+          fishing activities and analyze the data will significantly boost 
+          the industry's efficiency.
+          Furthermore, the incorporation of a Sea Weather 
+          Prediction and Early Warning System represents a pivotal 
+          advancement for the industry. It will allow fishermen to 
+          precisely forecast weather conditions and prevent accidents 
+          resulting from severe weather. The system can also issue 
+          warning signals to mitigate accidents and legal issues, thereby 
+          enhancing the safety and security of the fishery business.
+          Employing LoRa-based wireless communication 
+          technology, renowned for its low-power consumption and 
+          extensive range, the system caters to the specific needs of the 
+          fisheries industry through the establishment of an ad hoc 
+          network. This network links IoT nodes, ensuring seamless 
+          communication between fishing boats and land stations.
+          The proposed LoRa-based wireless communication 
+          system offers a comprehensive solution to these challenges. 
+          By establishing a robust communication network, this system 
+          enables real-time data exchange between fishing vessels and 
+          shore stations. This allows fishermen to communicate 
+          effectively, receive weather updates, and send distress signals 
+          if needed. The system's features, such as emergency alerts and 
+          detection of illegal fishing activities, enhance safety measures 
+          and help prevent accidents and illegal activities. Overall, the 
+          system addresses major issues and provides a way for a more 
+          effective and sustainable sector in the fishing industry by 
+          enhancing coordination, communication, and safety.          
+          </P>
+                </div>
+          </div>
+            <!-- Research Objectives -->
+		   <div id="research_objectives" class="sub-section">
+        <div class="container">
+          <h2 class="pb-5 pt-5 text-center mb-5 display-5">Research Objectives</h2>
+          <!-- First Content Section-->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+            <div class="col-6">
+              <h4>Implementation of LoRa-based Wireless Communication System</h4>
+              <p style="text-align: justify;">To enhance communication and safety measures for fishermen in Sri Lanka by implementing a LoRa-based wireless 
+                communication system that facilitates seamless boat-to-boat and boat-to-shore communication, along with an SOS 
+                system for emergencies.</p>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+              <h4>Implementation of Sea Weather Prediction and Early Warning System</h4>
+              <p style="text-align: justify;">mobile-based solution that utilizes IoT technology to monitor weather conditions in real time and provide fishermen with 
+                accurate forecasts. The application also incorporates an early warning system that alerts fishermen about potential risks such as storms, high waves, or strong winds.
+              </p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+          <!-- Third Content Section -->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+            <div class="col-6">
+              <h4>Implementation of Illegal Fishing Detection System</h4>
+              <p style="text-align: justify;">Fish species identification using image recognition, illegal fishing detection, and alerting to shore authorities.</p>
+            </div>
+          </div>          
+		   <!-- Path Line -->
+
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+              <h4>Implementation of Secure Communication, Robust Mobile App Security, and Obstacle Detection System.</h4>
+              <p style="text-align: justify;">secure 
+                and reliable 
+                communication 
+                channel for 
+                fishermen using 
+                LoRa modules, 
+                extending it from 
+                boats to lan based stations. It 
+                also focuses on 
+                implementing 
+                robust security 
+                measures in 
+                mobile 
+                applications used 
+                in the fishery 
+                industry and 
+                developing a 
+                centralized 
+                dashboard for 
+                managing and 
+                monitoring 
+                fishery activities.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Methodology -->
+            <div id="methodology" class="sub-section">
+              <h2>Methodology</h2>
+              <div class="row">
+                <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+                  <div class="section-left">
+                    <div class="section-figure">
+                      <img src="./Images/other/architecture.png" width="80%"/>
+                      <p>Figure 2. High Level Architecture of the system.</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+                  <p>The proposed loRa-Based wireless communication system consists of 4 main components. They are;</p>
+                  <ol>
+                    <li><strong>LoRa-based Wireless Communication</strong></li>
+                    <li><strong>Sea Weather Prediction and Early Warning System</strong></li>
+                    <li><strong>Fish Species Identification Using Image Recognition, 
+                      Illegal Fishing Detection and Alerting system</strong></li>
+					<li><strong>Secure 
+            Communication, Robust Mobile App Security, and Obstacle Detection System.</strong></li>
+                    <!-- <li><strong>Crowdsourcing for information sharing.</strong></li> -->
+                  </ol>
+				  <p> The Figure 2 system diagram illustrates the operation of a 
+            comprehensive communication system designed for marine 
+            applications. At its core, the system relies on a boat-mounted 
+            microcontroller to collect and process various types of data, 
+            including geographical coordinates (longitude and latitude) 
+            and sensor readings. In the event of an emergency, the 
+            microcontroller also handles the transmission of emergency 
+            messages. The processed data is then selectively displayed on 
+            the boat's display unit. To ensure secure communication, all 
+            data is encrypted before being transmitted via a boat-mounted 
+            LoRa (Long Range) module. The encrypted data is then 
+            relayed through intermediary LoRa nodes, which serve as 
+            communication relays, effectively extending the range of the 
+            boat's communication capabilities and forming an Ad hoc 
+            network. Ultimately, the encrypted data reaches a shore 
+            station, where it can be used to provide crucial functionalities 
+            such as emergency alerts, real-time weather updates, detection 
+            of illegal fishing activities, and issuing warnings to boats 
+            about potential barriers.</p>
+                </div>
+              </div>
+          </div>
+            <!-- Technologies Used -->
+            <div id="tech_used" class="sub-section">
+              <h2>Technologies Used</h2>
+              <div class="row technology mt-5">
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/python.png" alt="Python">
+                  </div>
+                  <p>Python</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/java.svg" alt="Java">
+                  </div>
+                  <p>Java</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/tensorflow.png" alt="Python">
+                  </div>
+                  <p>Tensorflow</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/keras.png" alt="Keras">
+                  </div>
+                  <p>Keras</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/arduino.png" alt="Arduino" height="100px">
+                  </div>
+                  <p>Arduino</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/lorawan.png" alt="Lorawan">
+                  </div>
+                  <p>LoRaWAN Network Server</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/blockchain.png" alt="Blockchain platform">
+                  </div>
+                  <p>Blockchain Platform</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/smart_contract.png" alt="Smart contract">
+                  </div>
+                  <p>Smart Contracts</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/cryptography.png" alt="Cryptography">
+                  </div>
+                  <p>Cryptography</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/colab.png" alt="Google Colab">
+                  </div>
+                  <p>Google Colab</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/googlemap.png" alt="Google map API">
+                  </div>
+                  <p>Google Map API</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/jwt.png" alt="Jwt">
+                  </div>
+                  <p>Jwt</p>
+                </div>
+          </div>
+        </div>
+      </section>
+      <!-- Milestones -->
+      <section id="milestones" class="main-sections" >
+        <div class="container">
+            <h5 class="section-headings">Milestones</h5>
+            <div class="sub-section">
+                <h2>Timeline in Brief</h2>
+                <div class="milestones">
+                  <ul class="timeline">
+                    <!-- Project Proposal -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">August 2023</p>
+                        <h3>Project Proposal</h3>
+                        <p>A Project Proposal is presented to potential sponsors or clients to receive funding or get your project approved.</p>
+                        <p><strong>Marks Allocated : </strong>6</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 6%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">6%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Progress Presentation I -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">November 2023</p>
+                        <h3>Progress Presentation I</h3>
+                        <p>Progress Presentation I reviews the 50% completetion status of the project. This reveals any gaps or inconsistencies in the design/requirements.</p>
+                        <p><strong>Marks Allocated : </strong>6</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 12%" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 6%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">6%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Research Paper -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">March 2024</p>
+                        <h3>Research Paper</h3>
+                        <p>Describes what you contribute to existing knowledge, giving due recognition to all work that you referred in making new knowledge</p>
+                        <p><strong>Marks Allocated : </strong>10</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 27%" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Progress Presentation II -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">March 2024</p>
+                        <h3>Progress Presentation II</h3>
+                        <p>Progress Presentation II reviews the 90% completetion status demonstration of the project. Along with a Poster presesntation which describes the project as a whole.</p>
+                        <p><strong>Marks Allocated : </strong>18</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 37%" aria-valuenow="37" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 18%" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">18%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Website -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">June 2024</p>
+                        <h3>Website Assessment</h3>
+                        <p>The Website helps to promote our research project and reveals all details related to the project.</p>
+                        <p><strong>Marks Allocated : </strong>2</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 2%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100">2%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Logbook -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">June 2024</p>
+                        <h3>Logbook</h3>
+                        <p>Status of the project is validated through the Logbook. This also includes, Status documents 1 & 2.</p>
+                        <p><strong>Marks Allocated : </strong>3</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 57%" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 3%" aria-valuenow="4" aria-valuemin="0" aria-valuemax="100">3%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Final Report -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">July 2024</p>
+                        <h3>Final Report</h3>
+                        <p>Final Report evalutes the completed project done throughout the year. Marks mentioned below includes marks for Individual & group reports and also Final report.</p>
+                        <p><strong>Marks Allocated : </strong>19</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 61%" aria-valuenow="61" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 19%" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100">19%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Viva -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">May 2024</p>
+                        <h3>Final Presentation & Viva</h3>
+                        <p>Viva is held individually to assess each members contribution to the project.</p>
+                        <p><strong>Marks Allocated : </strong>20</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Downloads -->
+      <section id="downloads" class="main-sections" >
+        <div class="container">
+            <h5 class="section-headings">Downloads</h5>
+            <!-- Documents -->
+            <div class="sub-section">
+                <h2>Documents</h2>
+                <p>Please find all documents related to this project below.</p>
+                <div class="row mt-sm-5 downloads-container">
+				 <!-- Topic Assessment -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Topic Assessment</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/07/10</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://mysliit-my.sharepoint.com/:b:/g/personal/it20664862_my_sliit_lk/EQzVs3xVy1hChk8t9NTQ4eMBXAq_0dT7IsSi4LZ1BsIhqA?e=Izk9yc" target="_blank">Download</a></li>
+                        <!-- <li class="list-group-item">Individual<a href="">Download</a></li> -->
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Project Charter -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Charter</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/07/10</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1SkZ36rNGmUOqeJ2POyQYl_jagM2NrtV_/view?usp=sharing" target="_blank">Download</a></li>
+                        <!-- <li class="list-group-item">Individual<a href="">Download</a></li> -->
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Proposal</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/08/25</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Individual<a href="https://mysliit-my.sharepoint.com/:b:/g/personal/it20664862_my_sliit_lk/ERaC-lz4r0tBrTrYybkLMlsBw93fjEiiyx5CbUEe_j1ICg?e=9YmhEr" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents I</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/11/06</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                        <li class="list-group-item">Individual<a href="https://mysliit-my.sharepoint.com/:b:/g/personal/it20664862_my_sliit_lk/EZYtY-q8771IoqIGRyblZowBZh5uBP9vUOTehPw7r6_dnQ?e=RIgWiU" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents II</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/03/18</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                        <li class="list-group-item">Individual<a href="https://mysliit-my.sharepoint.com/:b:/g/personal/it20664862_my_sliit_lk/EaPtky_iLQNEu-iB7GDVnGwBCh5j8bkkgfAgAMA0k86VIQ?e=JKhWA1" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Research -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Research Paper</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/03/04</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://mysliit-my.sharepoint.com/:b:/g/personal/it20664862_my_sliit_lk/EVVwfJrZMBhBhL92PnXBfkoBLsSCNshU6j_WVhGyxLxhzQ?e=Eoso4U" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Final Report -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Final Report</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/04/05</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/drive/folders/1kD5XuSULSgpdUvDAMHJJd_SyDSycwa2c?usp=sharing" target="_blank">Download</a></li>
+                        <li class="list-group-item">Individual<a href="https://drive.google.com/drive/folders/1TWM5u9trQHhLtMiRLJcOzHb1WSbBw6t0?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Poster -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-image mr-2 download-image"></i>Poster</h5>
+                        <p class="card-text pt-sm-2">Yet to be submitted, link will be updated soon.</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://drive.google.com/file/d/1uXVaaX4nqiGiqTAj7-JVHlgJ3XlHQQ3h/view?usp=sharing" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- Presentations -->
+            <div id="presentations" class="sub-section">
+                <h2>Presentations</h2>
+                <p>Please find all presentations related this project below.</p>
+                <div class="row mt-sm-5 downloads-container">
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Project Proposal</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/07/31</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://mysliit-my.sharepoint.com/:p:/g/personal/it20664862_my_sliit_lk/EZ2wMEJqzYFOrHi7IIxxwiwBo6RKErT3-7i3OplXDZbKdA?e=z6qnzW" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Progress Presentation I -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation I</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2023/11/06</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://mysliit-my.sharepoint.com/:p:/g/personal/it20664862_my_sliit_lk/EdeNYgejWV5As4rwvaf25o0BkFDqVMGJAYF4MTo8qab64g?e=8iiwq3" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Progress Presentation II -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation II</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/03/18</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://mysliit-my.sharepoint.com/:p:/g/personal/it20664862_my_sliit_lk/EWTdKxRTbYJNnlBgOqIgjOYBOW_q0KclQVnQNLQPE8Y8vA?e=ZRbSpO" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Final Presentation -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Final Presentation</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/05/20</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://mysliit-my.sharepoint.com/:p:/g/personal/it20664862_my_sliit_lk/EdyvVX9yuhFHttcLfFBey74BR1ALXZeCTHH-EPgbGHL8hQ?e=W07Q45" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- About Us -->
+      <section id="about" class="main-sections " style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings">About Us</h5>
+            <div class="sub-section about-us-container ">
+                <h2>Meet Our Team !</h2>
+                <div class="row  mt-sm-5 ">
+                  <!-- Supervisor -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/supervisor.jpeg" class="about-us-image supervisor" alt="Ms. Wishalya Thisera" height="20%"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Ms. Wishalya Thisera</h5>
+						</br>
+                        <span class="badge badge-secondary">Supervisor</span>
+                        <div class="text-group">
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                          <p><strong>Department</strong></p>
+                          <p>Software Engineering</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <a class="card-text mr-4" style="cursor: pointer;" href="https://scholar.google.com/citations?hl=en&user=HLJBGbEAAAAJ"><i class="fab fa-google mr-2"></i>G-Scholar</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:wishalya.t@sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Co Supervisor -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/co_supervisor.jpeg" class="about-us-image cosupervisor" alt="Mr. Samitha Vidhanaarachchi" height="250px"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Mr. Samitha Vidhanaarachchi</h5>
+						</br>
+                        <span class="badge badge-secondary">Co-Supervisor</span>
+                        <div class="text-group">
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                          <p><strong>Department</strong></p>
+                          <p>Software Engineering</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <a class="card-text mr-4" style="cursor: pointer;" href="https://scholar.google.com/citations?user=FGlT1w0AAAAJ&hl=en"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:samitha.v@sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+				  <!-- external Supervisor -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/external_supervisor.png" class="about-us-image cosupervisor" alt="Professor P.B. Terney Pradeep Kumara" height="20%"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Professor. P.B. Terney Pradeep Kumara</h5>
+						</br>
+                        <span class="badge badge-secondary">External-Supervisor</span>
+                        <div class="text-group">
+                          <p>Faculty of Fisheries and Marine Sciences & Technology, University of Ruhuna </p>
+                        </div>
+                        <div class="text-group">
+                          <p><strong>Department</strong></p>
+                          <p>Oceanography and Marine Geology</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <a class="card-text mr-4" style="cursor: pointer;" href="https://scholar.google.com/citations?user=c0C6dTwAAAAJ&hl=en"><i class="fab fa-google mr-2"></i>G-Scholar</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:nsaratchige@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+				  </div>
+				  <div class="row  mt-sm-5" style="justify-content: center">
+                  <!-- lahiru -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/lahiru.jpg" class="about-us-image " alt="Weerasinghe M.L.L." height="200px"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Weerasinghe M.L.L.</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Leader</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Software Engineering</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/lahiru-weerasinghe/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:weerasinghelahiru1999@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- pinsara -->
+                   <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/pinsara.jpg" class="about-us-image" alt="Bandara R.M.P.C." height="200px"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Bandara R.M.P.C.</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Member</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Software Engineering</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/pinsara"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:pinsaracb@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- rumindi -->
+                          <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/rumindi.png" class="about-us-image" alt="Kumari K.T.C.R." height="20%"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Kumari K.T.C.R.</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Member</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Software Engineering</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/rumindi-chamodya"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:rumindichamodya99@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- rithma -->
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/rithma.jpg" class="about-us-image" alt="Madhuthisara W.B.G.R.K." height="200px"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Madhuthisara W.B.G.R.K.</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Member</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Cyber Security</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a class="card-text mr-4" style="cursor: pointer;" href="http://linkedin.com/in/rithma-keshanx"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:Rithmakeshanx@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+				  </div>
+            </div>
+        </div>
+      </section>
+
+	      <!-- Promo Banner -->
+		  <section id="banner" class="main-sections">
+        <div class="promo-banner">
+            <div class="container">
+
+            	 <div class="section-center">
+                    <div class="section-figure">
+                      <img src="./Images/back/icon.png" width="10%"/>
+                    </div>
+                  </div>
+            </div>
+                 <h2 class="promo-banner-title">Download Now!</h2>
+                <p class="promo-banner-text">iCatchSafe mobile application is now available for download on Google Play. Click below to get the app now!</p>
+
+               <div class="section-center">
+                    <div class="section-figure">
+                      <a href="#"><img src="./Images/back/playstore.png" width="15%"/></a>
+                    </div>
+                  </div>
+        </div>
+		</section>
+
+      <!-- Contact Us -->
+      <section id="contact" class="main-sections" style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings">Contact Us</h5>
+            <div class="sub-section">
+                <h2>Get in Touch</h2>
+                <div class="row  mt-sm-5">
+                  <div class="col-md-6 col-sm-12 contact-form">
+                    <form action="MAILTO:researchcoco@gmail.com" method="POST" enctype="text/plain">
+                      <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="John Doe">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Message or Query</label>
+                        <textarea class="form-control" id="message" rows="5"></textarea>
+                      </div>
+                      <button type="submit" class="btn btncolorgradient	">Submit</button>
+                    </form>
+                  </div>
+                  <div class="col-md-6 col-sm-12 contact-details">
+                    <div>
+                      <p><strong>Contact Details</strong></p>
+                      <p>For further queries please reach us at <a href="mailto: researchcoco@gmail.com">icatchsafe@gmail.com</a></p>
+                      <p>Hope this project helped you in some manner. Thank you!</p>
+                      <p>-Team iCatchSafe	</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Scripts -->
+    <script src="./lib/jquery/jquery-3.5.1.slim.min.js"></script>
+    <script src="./lib/fontawesome/js/all.min.js"></script>
+    <script src="./lib/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
