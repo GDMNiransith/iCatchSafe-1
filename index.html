@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>FireWatch</title>
+</head>
+<body style="background-color: #E9F7EF">
+    <!-- NavBar -->
+    <nav id="navmenu" class="navbar navbar-expand-lg sticky-top">
+        <a class="navbar-brand" href="#home">
+            <img src="./Images/logo/icon.png" width="35" height="35" class="d-inline-block align-top"  loading="lazy">
+            <span>FireWatch</span></br>
+        </a>
+        <button id="nav-toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span id="nav-toggle-icon" class="fas fa-ellipsis-v"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="navmenu-links" class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Project Scope
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#project-scope">Literature Survey</a>
+                <a class="dropdown-item" href="#research_gap">Research Gap</a>
+                <a class="dropdown-item" href="#research_problem">Research Problem & Solution</a>
+                <a class="dropdown-item" href="#research_objectives">Research Objectives</a>
+                <a class="dropdown-item" href="#methodology">Methodology</a>
+                <a class="dropdown-item" href="#tech_used">Technologies</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#milestones">Milestones</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Downloads
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#downloads">Documents</a>
+                  <a class="dropdown-item" href="#presentations">Presentations</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+            </li>
+			<!-- <li class="nav-item">
+                <a class="nav-link" href="#achievements">Achievements</a>
+            </li> -->
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Home -->
+      <section id="home">
+        <div class="container">
+            <div class="hero-cta">
+              <img src="./Images/logo/back_ico1.png" width="75" height="75" class="d-inline-block align-top"  loading="lazy">
+              <img src="./Images/logo/back_ico2.png" width="75" height="75" class="d-inline-block align-top"  loading="lazy">
+              <img src="./Images/logo/back_ico3.png" width="75" height="75" class="d-inline-block align-top"  loading="lazy">
+              <img src="./Images/logo/back_ico4.png" width="75" height="75" class="d-inline-block align-top"  loading="lazy">
+              <img src="./Images/logo/back_ico5.png" width="75" height="75" class="d-inline-block align-top"  loading="lazy">
+              <img src="./Images/logo/back_ico6.png" width="75" height="75" class="d-inline-block align-top"  loading="lazy">
+              
+                <h1>LoRa-based Wireless <br/>Communication System </h1>
+                <a class="btn btn-outline-light" type="button" href="#project-scope"><span class="btn-text">Learn More</span><span class="fas fa-chevron-right btn-icon"></span></a>
+            </div>
+        </div>
+        <div class="hero-cover">
+            <img class="spotlight-image" src="./Images/other/skeleton.png"/>
+            <img class="" src="./Images/other/background.jpg" height="100%" width="100%"/>
+        </div>
+      </section>
+      <!-- project-scope -->
+      <section id="project-scope" class="main-sections" style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings">Project Scope</h5>
+            <!-- Literature Survey -->
+            <div id="literature" class="sub-section">
+                <h2>Literature Survey</h2>
+                <div class="row">
+                  <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+                    <div class="section-left">
+                      <div class="section-info-div">
+                        <div class="row">
+                          <div class="col-sm-5"><img src="./Images/lit/4.jpg" width="95%" height="95%" style="border-radius: 10px;"/></div>
+                          <div class="col-sm-7 text-col">Forests cover 29.7% of Sri Lanka, hosting rich biodiversity, with sustainable commercialization efforts supporting eco-tourism and responsible forestry.<span style="color: grey; font-size: 12px;"></span style="color: grey; font-size: 12px;"></div>
+                        </div>
+                      </div>
+                      <div class="section-figure " >
+                        <img style="align-items:center" src="./Images/lit/stat.jpg" width="60%"/>
+                        <p>Figure 1: Geographic Distribution and Frequency of Forest Fires in Sri Lanka (2018) with Year-on-Year Comparison (Source: Fire Department of Sri Lanka)</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+					<p>The current wildfire prediction systems in Sri Lanka predominantly rely on traditional methods, 
+            which often lack accuracy and adaptability. These systems typically depend on static data and historical fire patterns, which are not sufficient for
+             predicting the dynamic behavior of modern wildfires. This limitation hinders emergency response efforts and compromises public safety by reducing the effectiveness of evacuation procedures and resource allocation. </p>
+            <p>To address this gap, there is a pressing need for innovative wildfire prediction systems that integrate real-time data from various sources. Emerging technologies such as satellite imagery, IoT sensor networks, and AI-driven analytics can significantly enhance the accuracy of fire behavior models. 
+              These tools can monitor environmental conditions, such as temperature, humidity, wind speed, and fuel moisture levels, providing timely and precise predictions of wildfire spread and intensity. </p>
+              <p>Moreover, machine learning algorithms and AI can analyze vast datasets to identify patterns and correlations that traditional models might overlook. These systems can continuously learn from new data, improving their predictive capabilities over time.
+                 Leveraging AI in wildfire management not only enhances prediction accuracy but also enables more efficient decision-making processes in allocating resources and prioritizing areas for evacuation.</p>
+              
+              <!-- <div class="references">
+                      <p class="pt-sm-1"><strong>References</strong></p>
+                      <ol>
+                        <li>N. Jayapal, "GPS & LabView based system for detection and control of maritime boundary intruding boats," IJERT, Apr 2018.</li>
+                      </ol>
+                    </div> -->
+                  </div>
+                </div>
+            </div>
+            <!-- Research Gap -->
+            <div id="research_gap" class="sub-section" >
+              <h2>Research Gap</h2>
+              <p>Following areas are the research gaps found in most of the recent researches.</p>
+              <div class="row mt-5 research-gap">
+			<div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-search fa-3x " aria-hidden="true" style="color: green; "></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Identification & classification </h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;"> There are no records of a smart solution for wireless communication system in Sri Lanka. It is a challenge to provide a solution due to limited data connectivity at the sea.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-chart-line fa-3x " aria-hidden="true" style="color: green;"></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Severity assessment</h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;">A smart solution using LoRa-based wireless communication systems for monitoring wildfire occurrences and illegal activities related to fire incidents has been reported in various regions. However, assessing the severity of wildfire events and the progression of fire spread has not yet been attempted. Additionally, the implementation of secure communication and real-time weather alerting and forecasting functions remains unexplored.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fa-container text-center">
+                        <i class="fas fa-comments fa-3x " aria-hidden="true" style="color: green;"></i>
+                    </div>
+                    <div class="text-center" style="padding-top: 20px;">
+                        <h5>Information sharing</h5>
+                    </div>
+                    <div>
+                        <p style="text-align: justify;">A real-time communication system using LoRa-based wireless technology has been identified as a priority need for effective information sharing emergency response teams, envirenmental authorities, and researchers for enhanced secure communication and weather update.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+			</div> 
+              </div>
+          </div>
+            <!-- Research Problem -->
+            <div id="research_problem" class="sub-section">
+              <h2>Research Problem & Solution</h2>
+			   <div class="row">
+                <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+                 <h5><strong>Proposed Problem</strong></h5>
+				 </br>
+					<h4 class="highlight">How to address wildfires escalating in Sri Lanka, driven by climate change, inadequate prediction systems, limited weather data, outdated communication, and security concerns, for sustainable prevention and management?
+
+            </h4>
+					<p></p>
+					<p style="text-align: justify;">Sri Lanka faces escalating wildfires due to climate change, inadequate prediction systems, limited weather data, outdated communication, and security concerns. Rising temperatures and dry conditions fuel fires, while poor data and prediction hinder early warnings. Outdated communication and security issues further complicate response efforts, emphasizing the need for comprehensive wildfire prevention and management strategies.</p>
+				</br>
+				</div>
+
+				<div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5">
+                  <div class="section-left">
+                    <div class="section-figure">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/A_xJSNfk_0Q?si=VxVvztL2aj6NG80i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <p>Product Demonstration - Solution</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+			     <div>
+				 <h5><strong>Proposed Solution</strong></h5>
+				 </br>
+				 <p style="text-align: justify;">The project aims to explore disaster management using modern technologies like Machine Learning, Image Processing, Internet of Things (IoT), and Blockchain Technology to create a comprehensive wildfire prediction and alert system. Machine Learning will be used to analyze large datasets, including weather patterns, vegetation data, and historical fire occurrences, to predict the likelihood and spread of wildfires. This data-driven approach will enable continuous learning and adaptation of the system to changing conditions, enhancing its predictive accuracy over time.
+
+          Image Processing, utilizing thermal data captured by drones, will allow for the early detection of fires by identifying heat signatures even in dense vegetation. The application of convolutional neural networks (CNNs) will help in accurately classifying these heat signatures, enabling swift alerts when potential wildfire threats are detected.
+          </P>
+          <p>
+            IoT technology will play a critical role by providing real-time environmental data such as temperature, humidity, and wind speed, essential for understanding fire risks and supporting predictive models. This live data will be integrated into the system, allowing it to respond dynamically to evolving fire conditions.
+
+Blockchain Technology will address the need for secure data exchange and communication within the system, creating a decentralized, tamper-proof platform that ensures data integrity and confidentiality. By utilizing smart contracts, the system will automate alerts and responses, reducing the chances of human error in critical situations.
+          </p>
+          <p>
+            LoRa technology will be employed to enhance communication capabilities in remote areas with limited cellular network access, ensuring that emergency alerts and data are transmitted effectively over long distances. The use of LoRa enables low-power, long-range communication, making it ideal for monitoring and transmitting sensor data from isolated regions.
+
+This integration of Machine Learning, Image Processing, IoT, Blockchain, and LoRa technology will create a robust, scalable wildfire detection and alert system that can adapt to other geographic regions facing similar challenges. The proposed system aims to address critical issues like limited access to real-time weather data, security vulnerabilities in communication, and inefficient traditional wildfire prediction methods. It will provide early warning alerts and real-time weather updates, including humidity levels and wind forecasts, to safeguard communities and the environment from wildfire threats.
+          </p>
+          <p>This project supports sustainable wildfire prevention strategies by reducing response times, improving resource allocation, and enhancing community preparedness. By focusing on these technological advancements, the project contributes to international efforts to promote sustainable development and create resilient communities capable of mitigating the impact of natural disasters. The adoption of a multidisciplinary approach leveraging these technologies could revolutionize how Sri Lanka and other countries manage and prevent wildfires, ultimately leading to more efficient and effective disaster management practices.</p>
+                          </div>
+          </div>
+            <!-- Research Objectives -->
+		   <div id="research_objectives" class="sub-section">
+        <div class="container">
+          <h2 class="pb-5 pt-5 text-center mb-5 display-5">Research Objectives</h2>
+          <!-- First Content Section-->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+            <div class="col-6">
+              <h4>Implementation of LoRa-based Wireless Communication System</h4>
+              <p style="text-align: justify;">Develop a comprehensive LoRa-based wireless communication system for communication inside the forest and to collect real time data to detect wildfires.
+
+</p>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+              <h4>Implementation of  Weather Prediction and wildfire Warning System</h4>
+              <p style="text-align: justify;">Approach is to develop a Forest Weather Prediction and Early Warning System with sending distress messages to the main station and other emergency response teams within the network including the current location of the predicted wildfire threat.
+              </p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+          <!-- Third Content Section -->
+          <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+            <div class="col-6">
+              <h4>Implementation of an Image Processing Unit for Predicting the Spread of Fire in a Given Area.</h4>
+              <p style="text-align: justify;">Enable accurate wildfire detection, robust prediction of the behavior of wildfires, and seamless data synchronization between support teams inside the forests and other authority personnel.</p>
+            </div>
+          </div>          
+		   <!-- Path Line -->
+
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner left-bottom"></div>
+            </div>
+          </div>
+          <!-- Second Content Section-->
+          <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+              <h4>Implementation of Secure Communication, Robust Mobile App Security, and Obstacle Detection System.</h4>
+              <p style="text-align: justify;">secure 
+                Enhancing Wildfire Detection and Management with Integrated Blockchain and IoT Solutions.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+              <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
+            </div>
+          </div>
+          <!-- Path Line -->
+          <div class="row timeline_s">
+            <div class="col-2">
+              <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+              <hr/>
+            </div>
+            <div class="col-2">
+              <div class="corner top-left"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Methodology -->
+            <div id="methodology" class="sub-section">
+              <h2>Methodology</h2>
+              <div class="row">
+                <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+                  <div class="section-left">
+                    <div class="section-figure">
+                      <img src="./Images/other/architecture.png" width="80%"/>
+                      <p>Figure 2. High Level Architecture of the system.</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+                  <p>The proposed loRa-Based wireless communication system consists of 4 main components. They are;</p>
+                  <ol>
+                    <li><strong>LoRa-based Wireless Communication</strong></li>
+                    <li><strong>Weather Prediction and wildfire Warning System</strong></li>
+                    <li><strong>Image Processing Unit for Predicting the Spread of Fire</strong></li>
+					<li><strong>Secure Communication, Robust Mobile App Security, and Obstacle Detection System.</strong></li>
+                    <!-- <li><strong>Crowdsourcing for information sharing.</strong></li> -->
+                  </ol>
+				  <p> The operation of a comprehensive communication system 
+            designed for forest conservation applications is illustrated by 
+            the system diagram. The system relies on multiple 
+            microcontrollers mounted in forests with high wildfire risk to 
+            collect and process various types of data, including 
+            geographical coordinates (longitude and latitude) and sensor 
+            readings. In the event of an emergency, the microcontroller 
+            handles the transmission of emergency messages. The 
+            processed data is selectively displayed on the device’s display 
+            unit. To ensure secure communication, all data is encrypted 
+            before being transmitted via a LoRa (Long Range) module. 
+            The encrypted data is then relayed through intermediary 
+            LoRa nodes, which serve as communication relays, 
+            effectively extending the device's communication range and 
+            forming an ad hoc network. Ultimately, the encrypted data 
+            reaches a main station, where it provides crucial 
+            functionalities such as emergency alerts, real-time weather 
+            updates, and the detection of early signs of wildfire. 
+            Low Power Wide Area Networks (LP-WAN) are wireless 
+            communication networks designed to connect devices 
+            efficiently over long ranges while consuming minimal power. </p>
+                </div>
+              </div>
+          </div>
+            <!-- Technologies Used -->
+            <div id="tech_used" class="sub-section">
+              <h2>Technologies Used</h2>
+              <div class="row technology mt-5">
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/python.png" alt="Python">
+                  </div>
+                  <p>Python</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/java.svg" alt="Java">
+                  </div>
+                  <p>Java</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/tensorflow.png" alt="Python">
+                  </div>
+                  <p>Tensorflow</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/keras.png" alt="Keras">
+                  </div>
+                  <p>Keras</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/arduino.png" alt="Arduino" height="100px">
+                  </div>
+                  <p>Arduino</p>
+                </div>
+                <div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/lorawan.png" alt="Lorawan">
+                  </div>
+                  <p>LoRaWAN Network Server</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/blockchain.png" alt="Blockchain platform">
+                  </div>
+                  <p>Blockchain Platform</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/smart_contract.png" alt="Smart contract">
+                  </div>
+                  <p>Smart Contracts</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/cryptography.png" alt="Cryptography">
+                  </div>
+                  <p>Cryptography</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/colab.png" alt="Google Colab">
+                  </div>
+                  <p>Google Colab</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/googlemap.png" alt="Google map API">
+                  </div>
+                  <p>Google Map API</p>
+                </div>
+				<div class="col-md-2 col-sm-4 col-6 mb-5">
+                  <div class="avatar">
+                    <img src="./Images/tech/jwt.png" alt="Jwt">
+                  </div>
+                  <p>Jwt</p>
+                </div>
+          </div>
+        </div>
+      </section>
+      <!-- Milestones -->
+      <section id="milestones" class="main-sections" >
+        <div class="container">
+            <h5 class="section-headings">Milestones</h5>
+            <div class="sub-section">
+                <h2>Timeline in Brief</h2>
+                <div class="milestones">
+                  <ul class="timeline">
+                    <!-- Project Proposal -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">February 2024</p>
+                        <h3>Project Proposal</h3>
+                        <p>A Project Proposal is presented to potential sponsors or clients to receive funding or get your project approved.</p>
+                        <p><strong>Marks Allocated : </strong>6</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 6%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100">6%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Progress Presentation I -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">May 2024</p>
+                        <h3>Progress Presentation I</h3>
+                        <p>Progress Presentation I reviews the 50% completetion status of the project. This reveals any gaps or inconsistencies in the design/requirements.</p>
+                        <p><strong>Marks Allocated : </strong>6</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 12%" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 6%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">6%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Research Paper -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">June 2024</p>
+                        <h3>Research Paper</h3>
+                        <p>Describes what you contribute to existing knowledge, giving due recognition to all work that you referred in making new knowledge</p>
+                        <p><strong>Marks Allocated : </strong>10</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 27%" aria-valuenow="27" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Progress Presentation II -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">September 2024</p>
+                        <h3>Progress Presentation II</h3>
+                        <p>Progress Presentation II reviews the 90% completetion status demonstration of the project. Along with a Poster presesntation which describes the project as a whole.</p>
+                        <p><strong>Marks Allocated : </strong>18</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 37%" aria-valuenow="37" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 18%" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">18%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Website -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">October 2024</p>
+                        <h3>Website Assessment</h3>
+                        <p>The Website helps to promote our research project and reveals all details related to the project.</p>
+                        <p><strong>Marks Allocated : </strong>2</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 2%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100">2%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Logbook -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">November 2024</p>
+                        <h3>Logbook</h3>
+                        <p>Status of the project is validated through the Logbook. This also includes, Status documents 1 & 2.</p>
+                        <p><strong>Marks Allocated : </strong>3</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 57%" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 3%" aria-valuenow="4" aria-valuemin="0" aria-valuemax="100">3%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Final Report -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">December 2024</p>
+                        <h3>Final Report</h3>
+                        <p>Final Report evalutes the completed project done throughout the year. Marks mentioned below includes marks for Individual & group reports and also Final report.</p>
+                        <p><strong>Marks Allocated : </strong>19</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 61%" aria-valuenow="61" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 19%" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100">19%</div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- Viva -->
+                    <li class="timeline-event">
+                      <label class="timeline-event-icon"></label>
+                      <div class="timeline-event-copy">
+                        <p class="timeline-event-thumbnail">October 2024</p>
+                        <h3>Final Presentation & Viva</h3>
+                        <p>Viva is held individually to assess each members contribution to the project.</p>
+                        <p><strong>Marks Allocated : </strong>20</p>
+                        <div class="progress">
+                          <div class="progress-bar bg-infinity-primary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Downloads -->
+      <section id="downloads" class="main-sections" >
+        <div class="container">
+            <h5 class="section-headings">Downloads</h5>
+            <!-- Documents -->
+            <div class="sub-section">
+                <h2>Documents</h2>
+                <p>Please find all documents related to this project below.</p>
+                <div class="row mt-sm-5 downloads-container">
+				 <!-- Topic Assessment -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Topic Assessment</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/01/31</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://mysliit-my.sharepoint.com/:b:/g/personal/it21050626_my_sliit_lk/EVjeH5_7aEtPqLzmKX52VJABPEkJ-cHrhjP3bWmqvBp6AA?e=Rdptji" target="_blank">Download</a></li>
+                        <!-- <li class="list-group-item">Individual<a href="">Download</a></li> -->
+                      </ul>
+
+                    </div>
+                  </div>
+               
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Proposal</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/02/29</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Individual<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it21050626_my_sliit_lk/EgOgN0fzPHNLvt738oMiXycBHdPGKNNxf6hhvt4mrG5BFQ?e=OjO9HK" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents I</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/05/06</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                        <li class="list-group-item">Individual<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it21050626_my_sliit_lk/EtXit6OE_YNCge-YcPWoEScBO2swjdq1X6QeviLuJzFtaQ?e=dTXvms" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Status Documents -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents II</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/09/11</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <!-- <li class="list-group-item">Group<a href="">Download</a></li> -->
+                        <li class="list-group-item">Individual<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it21050626_my_sliit_lk/EvwzTTqB0_1PthK9XTMIougB7PWOqp4fTR6Wp9XMo4H-uw?e=znlfuc" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Research -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Research Paper</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/06/14</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://mysliit-my.sharepoint.com/:b:/g/personal/it21050626_my_sliit_lk/EXoKiDzQY8RIlQa6tzNZRFABi_UMwqP65CYlDtfLQNEcGg?e=omFpKB" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Final Report -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Final Report</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/08/22</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://mysliit-my.sharepoint.com/:b:/g/personal/it21050626_my_sliit_lk/EUCBEDFvx-tHiAbZ2LrehuMBmFDqubDOTNI5pmOg3CpU-w?e=ewrZsa" target="_blank">Download</a></li>
+                        <li class="list-group-item">Individual<a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it21050626_my_sliit_lk/EtYklqmUC_lIjr__gOt2QK8BnM6HW2m6cEeT7YBzUbqDyA?e=MDfbrF" target="_blank">Download</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  <!-- Poster -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-image mr-2 download-image"></i>Poster</h5>
+                        <p class="card-text pt-sm-2">Yet to be submitted, link will be updated soon.</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group
+                          <a href="#" class="disabled-link" title="Yet to be submitted, link will be updated soon." style="cursor: not-allowed; text-decoration: none;">Download</a>
+                      </li></ul>
+
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- Presentations -->
+            <div id="presentations" class="sub-section">
+                <h2>Presentations</h2>
+                <p>Please find all presentations related this project below.</p>
+                <div class="row mt-sm-5 downloads-container">
+                  <!-- Project Proposal -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Project Proposal</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/02/20</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://mysliit-my.sharepoint.com/:p:/g/personal/it21035012_my_sliit_lk/EYkwWEkZivdHmq9nNTa2UN8B5oaDaO-mrbmQ8IjRIAkQQA?e=KUaQ5H " target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Progress Presentation I -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation I</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/05/05</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href="https://mysliit-my.sharepoint.com/:p:/g/personal/it21035012_my_sliit_lk/EZjUPoeruExLtM3qDYaztSwB8SoAMpHZKcHZjepiraAx-w?e=AZSiTe" target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Progress Presentation II -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress Presentation II</h5>
+                        <p class="card-text pt-sm-2">Submitted on 2024/09/09</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group<a href=" https://mysliit-my.sharepoint.com/:p:/g/personal/it21035012_my_sliit_lk/EWijv8rHn0BKjM0YyvCYCPsBicT7y02GRo9xYIyyUlO6Eg?e=nHmDxH " target="_blank">Download</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Final Presentation -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card" >
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Final Presentation</h5>
+                        <p class="card-text pt-sm-2">Yet to be submitted, link will be updated soon.</p>
+                      </div>
+                      <ul class="download-items list-group list-group-flush">
+                        <li class="list-group-item">Group
+                          <a href="#" class="disabled-link" title="Yet to be submitted, link will be updated soon." style="cursor: not-allowed; text-decoration: none;">Download</a>
+                      </li>
+                      
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- About Us -->
+      <section id="about" class="main-sections " style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings">About Us</h5>
+            <div class="sub-section about-us-container ">
+                <h2>Meet Our Team !</h2>
+                <div class="row  mt-sm-5 ">
+                  <!-- Supervisor -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/supervisor.jpeg" class="about-us-image supervisor" alt="Ms. Wishalya Thisera" height="20%"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Dr. Dharshana Kasthurirathna
+                        </h5>
+						</br>
+                        <span class="badge badge-secondary">Supervisor</span>
+                        <div class="text-group">
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                          <p><strong>Department</strong></p>
+          
+                          <p>Assistant Professor
+                            Faculty of Computing
+                            Computer Science
+                            </p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/dharshana-kasthurirathna-a4a3275/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:dharshana.k@sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Co Supervisor -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/co_supervisor.jpeg" class="about-us-image cosupervisor" alt="Mr. Samitha Vidhanaarachchi" height="20%"/>
+                      <div class="card-body">
+                        <h5 class="card-title">Ms. Jenny
+                          Krishara</h5>
+						</br>
+          </br>
+                        <span class="badge badge-secondary">Co-Supervisor</span>
+                        <div class="text-group">
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                          <p><strong>Department</strong></p>
+                          <p>Lecturer
+                            Faculty of Computing
+                            Information Technology</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                          <a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/jenny-krishara-1a09a0111/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:jenny.k@sliit.lk"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+				  <!-- external Supervisor -->
+               
+				  <div class="row  mt-sm-5" style="justify-content: center">
+                  <!-- sahan -->
+                  <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/lahiru.jpg" class="about-us-image " alt="Weerasinghe M.L.L." height="20%"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Munasinghe S D</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Leader</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Information technology</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/sahan-dulanjaya/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:sahandulanjaya02@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- pinsara -->
+                   <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/pinsara.jpg" class="about-us-image" alt="Bandara R.M.P.C." height="20%"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Jayasinghe J K M L</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Member</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Information Technology</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/manusha-lakshan/"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:manushalakshanjay@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- rumindi -->
+                          <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/rumindi.png" class="about-us-image" alt="Kumari K.T.C.R." height="20%"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Gamage A G R U</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Member</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Information Technology</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a class="card-text mr-4" style="cursor: pointer;" href="https://www.linkedin.com/in/rumindi-chamodya"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:rashmiupamalika2000@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- rithma -->
+                    <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card about-us-card">
+                      <img src="./Images/dp/rithma.jpg" class="about-us-image" alt="Madhuthisara W.B.G.R.K." height="20%"/>
+                        <div class="card-body">
+                        <h5 class="card-title">Niransith G D M</h5>
+						</br>
+                        <span class="badge badge-secondary">Group Member</span>
+                        <div class="text-group">
+						<p><strong>Undergraduate</strong></p>
+                          <p>Sri Lanka Institute of Information Technology</p>
+                        </div>
+                        <div class="text-group">
+                        <p><strong>Department</strong></p>
+                          <p>Information technology</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a class="card-text mr-4" style="cursor: pointer;" href="http://linkedin.com/in/rithma-keshanx"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                          <a class="card-text" style="cursor: pointer;" href="mailto:Rithmakeshanx@gmail.com"><i class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+				  </div>
+            </div>
+        </div>
+      </section>
+
+	      <!-- Promo Banner -->
+		  <section id="banner" class="main-sections">
+        <div class="promo-banner">
+            <div class="container">
+
+            	 <div class="section-center">
+                    <div class="section-figure">
+                      <img src="./Images/back/icon.png" width="10%"/>
+                    </div>
+                  </div>
+            </div>
+                 <h2 class="promo-banner-title">Download Now!</h2>
+                <p class="promo-banner-text">FireWatch mobile application is now available for download on Google Play. Click below to get the app now!</p>
+
+               <div class="section-center">
+                    <div class="section-figure">
+                      <a href="#"><img src="./Images/back/playstore.png" width="15%"/></a>
+                    </div>
+                  </div>
+        </div>
+		</section>
+
+      <!-- Contact Us -->
+      <section id="contact" class="main-sections" style="background-color:#FDFEFE">
+        <div class="container">
+            <h5 class="section-headings">Contact Us</h5>
+            <div class="sub-section">
+                <h2>Get in Touch</h2>
+                <div class="row  mt-sm-5">
+                  <div class="col-md-6 col-sm-12 contact-form">
+                    <form action="MAILTO:researchcoco@gmail.com" method="POST" enctype="text/plain">
+                      <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="John Doe">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Message or Query</label>
+                        <textarea class="form-control" id="message" rows="5"></textarea>
+                      </div>
+                      <button type="submit" class="btn btncolorgradient	">Submit</button>
+                    </form>
+                  </div>
+                  <div class="col-md-6 col-sm-12 contact-details">
+                    <div>
+                      <p><strong>Contact Details</strong></p>
+                      <p>For further queries please reach us at <a href="mailto: inquiries@firewatchlk.com">inquiries@firewatchlk.com</a></p>
+                      <p>Hope this project helped you in some manner. Thank you!</p>
+                      <p>-Team FireWatch	</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Scripts -->
+    <script src="./lib/jquery/jquery-3.5.1.slim.min.js"></script>
+    <script src="./lib/fontawesome/js/all.min.js"></script>
+    <script src="./lib/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
